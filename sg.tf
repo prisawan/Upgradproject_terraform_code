@@ -81,4 +81,7 @@ module "lb_sg" {
       to_port     = 0
       protocol    = "-1"
       description = "Allow all outbound"
-      cidr_blocks = "0.0
+      cidr_blocks = "0.0.0.0/0"
+    }
+  ]
+}
